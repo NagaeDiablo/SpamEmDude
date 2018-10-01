@@ -11,11 +11,13 @@
 
 # Features
 
-* ### REMAINING [F7]
+* ### /OOS [F5]
 
-* ### KICK YOURSELF [F8]
+* ### /REMAINING [F6]
+
+* ### KICK YOURSELF [F7]
   
-* ### HIDEOUT [F9]
+* ### /HIDEOUT [F8]
 
 * ### BUYING THINGS FROM VENDORS [F10]
 
