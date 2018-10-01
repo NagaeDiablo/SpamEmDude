@@ -20,6 +20,8 @@
 * ### /REMAINING [F6]
 
 * ### KICK YOURSELF [F7]
+
+	You will have to edit the line number 38. Replace "NagaElementalist" with your current character name ^_^
   
 * ### /HIDEOUT [F8]
 
