@@ -27,7 +27,7 @@
 
 * ### BUYING THINGS FROM VENDORS [F9]
 
-	Place your mouse over what you want to buy and hold down __"F19"__. The macro will hold down ctrl and start spamming left click as long as you are holding down the hotkey.
+	Place your mouse over what you want to buy and hold down __"F9"__. The macro will hold down ctrl and start spamming left click as long as you are holding down the hotkey.
 	
 	Delays between each click is randomized for extra safety.
 
