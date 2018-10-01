@@ -4,7 +4,7 @@
 
 # Instructions
 
-	1. [Download and install AHK.][1]
+	1. Download and install AHK from https://autohotkey.com/
 	2. Download the latest version of the macro and extract the zip.
 	3. Make sure that you are running Path of Exile in borderless fullscreen windowed mode.
 	4. Run *SpamEmDude.ahk*
@@ -48,5 +48,3 @@
 * ### TERMINATING THE MACRO [END]
 
 	Pressing __"End"__ button will terminate the macro.
-
-[1]: https://autohotkey.com/
