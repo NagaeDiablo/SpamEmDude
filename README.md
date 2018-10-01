@@ -7,11 +7,10 @@ Will possibly add flask management in future.
 
 # Instructions
 
-1. Make sure you are following me on twitch https://www.twitch.tv/nagaediablo otherwise the macro won't work (jokes on you)
-2. Download and install AHK from https://autohotkey.com/
-3. Download the latest version of the macro and extract the zip.
-4. Make sure that you are running Path of Exile in borderless fullscreen windowed mode.
-5. Run *SpamEmDude.ahk*
+1. Download and install AHK from https://autohotkey.com/
+2. Download the latest version of the macro and extract the zip.
+3. Make sure that you are running Path of Exile in borderless fullscreen windowed mode.
+4. Run *SpamEmDude.ahk*
 
 # Features
 
