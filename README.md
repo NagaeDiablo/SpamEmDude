@@ -1,4 +1,4 @@
-# SpamEmDude
+# SpamEmDude V1.1
 "SpamEmDude" is a *AHK* macro with several features, designed for the game *"Path of Exile"*.
 
 (✿ =‿‿=) https://clips.twitch.tv/FunAbstruseWitchSMOrc
