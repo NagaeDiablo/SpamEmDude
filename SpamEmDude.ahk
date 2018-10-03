@@ -7,6 +7,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #SingleInstance force
 
+//V1.01
+
 // F5 for /oos
 // F6 for /remaining
 // F7 for kick yourself
@@ -50,79 +52,52 @@ F8::
 
 F9::
 	Send, {Ctrl down}
-	Sleep, 5
-
 	Loop 
 	{
-		Random, rand, 90, 100
-		Send, {LButton down}
+		Random, rand, 125, 135
+		Send {Click}
 		Sleep, rand
-	
-		Send, {LButton up}
-		Sleep, 5
 		
 		if (!GetKeyState("F9", "p"))
 		{
 			Send, {Ctrl up}
-			Sleep, 5
 			break
 		}
 	}
 	Return
 	
 F10::
-	DllCall("SetCursorPos", int, 116, int, 476)
-	Send, {RButton down}
-	Sleep, 5
-	Send, {RButton up}
-	Sleep, 5
+	Send {Click 116, 476, right}
+	Sleep, 10
 	Send, {Shift down}
-	Sleep, 5
-	DllCall("SetCursorPos", int, 334, int, 515)
-	Sleep, 5
-	
 	Loop 
 	{
-		Random, rand, 90, 100
-		Send, {LButton down}
+		Random, rand, 125, 135
+		Send {Click 334, 515}
 		Sleep, rand
-	
-		Send, {LButton up}
-		Sleep, 5
 		
 		if (!GetKeyState("F10", "p"))
 		{
 			Send, {Shift up}
-			Sleep, 5
 			break
 		}
 	}
 	Return
 	
-F11::
-	DllCall("SetCursorPos", int, 173, int, 476)
-	Send, {RButton down}
-	Sleep, 5
-	Send, {RButton up}
-	Sleep, 5
-	Send, {Shift down}
-	Sleep, 5
-	DllCall("SetCursorPos", int, 334, int, 515)
-	Sleep, 5
 	
+F11::	
+	Send {Click 173, 476, right}
+	Sleep, 10
+	Send, {Shift down}
 	Loop 
 	{
-		Random, rand, 90, 100
-		Send, {LButton down}
+		Random, rand, 125, 135
+		Send {Click 334, 515}
 		Sleep, rand
-	
-		Send, {LButton up}
-		Sleep, 5
 		
 		if (!GetKeyState("F11", "p"))
 		{
 			Send, {Shift up}
-			Sleep, 5
 			break
 		}
 	}
